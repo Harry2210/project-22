@@ -54,8 +54,7 @@ function draw() {
 
 function keyPressed() {
  if (keyCode == DOWN_ARROW) {
-	packageBody = Bodies.circle(width/2 , 200 , 5 , {restitution:0.5, isStatic:false});
-	World.add(world, packageBody);
+
 	packageSprite.x= packageBody.position.x 
 	packageSprite.y= packageBody.position.y 
   }
