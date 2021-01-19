@@ -55,6 +55,7 @@ function draw() {
 function keyPressed() {
  if (keyCode == DOWN_ARROW) {
 
+	 Matter.Body.setStatic(packageBody,false)
 	packageSprite.x= packageBody.position.x 
 	packageSprite.y= packageBody.position.y 
   }
